@@ -11,7 +11,7 @@
 		</div>
 		@endif
 		<div align="right">
-			<a href="{{route('student.create')}}" class="btn btn-success">Add</a>
+			<a href="{{route('student.create')}}" class="btn btn-primary" style="background-color: #ffb701;border: none;">Thêm vào</a>
 			<br>
 			<br>
 		</div>
@@ -34,6 +34,7 @@
 							<button type="button" class="btn btn-danger" name="archive" onclick="archiveFunction()">Delete</button>
 						</form>
 					</td>
+					
 				</tr>
 			@endforeach
 		</table>

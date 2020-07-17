@@ -31,7 +31,7 @@
 				<label for="last_name">Last name:</label>
 				<input type="text" name="last_name" class="form-control" placeholder="Enter last name">
 			</div>
-			<input type="button" class="btn btn-primary" name="" name="archive" onclick="archiveFunction()" value="Register">
+			<input type="button" class="btn btn-primary" name="" name="archive" onclick="archiveFunction()" size="100px" value="Thêm vào" >
 		</form>
 	</div>
 </div>
